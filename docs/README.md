@@ -1,10 +1,10 @@
 ---
 home: true
 heroImage: /assets/img/elementui.svg
-heroText: Hero 标题
-tagline: Hero 副标题
-actionText: 快速上手 →
-actionLink: /guide/
+heroText: 高级前端进阶
+tagline: To Be A Overflow Stack Engineer
+actionText: Stack Overflow →
+actionLink: /zh/guide/
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。

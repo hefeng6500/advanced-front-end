@@ -1,12 +1,13 @@
 module.exports = {
-  title: 'Hello VuePress',
-  description: 'Just playing around',
+  title: '高级前端进阶',
+  description: 'advanced-front-end',
   base: '/advanced-front-end/',
   themeConfig: {
     logo: '/assets/img/logo.png',
     nav: [
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/' },
+      { text: 'Vue', link: '/vue/'},
       { text: 'External', link: 'https://google.com' },
       {
         text: 'Languages',
@@ -23,12 +24,25 @@ module.exports = {
           title: '函数式编程',
           collapsable: false, 
           children: [
-            '/guide/',
+            '',
             '/guide/1',
             '/guide/2'
             // { title: 'bar default', path: '/guide/'},
             // { title: 'Three', path: '/guide/three'},
             // { title: 'Four', path: '/guide/four'}
+          ]
+        }
+      ],
+      '/vue/': [
+        {
+          title: 'Vue源码',
+          collapsable: false,
+          children: [
+            '',
+            '/vue/virtualDOM',
+            '/vue/handwritingVue',
+            '/vue/ssr',
+            '/vue/vue-i18n'
           ]
         }
       ]

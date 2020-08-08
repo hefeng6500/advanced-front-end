@@ -1,9 +1,9 @@
 ---
 home: true
 heroImage: /hero.png
-heroText: Hero 标题
-tagline: Hero 副标题
-actionText: 快速上手 →
+heroText: Advanced-Front-End
+tagline: To Be A Overflow Stack Engineer
+actionText: Stack Overflow →
 actionLink: /zh/guide/
 features:
 - title: 简洁至上
